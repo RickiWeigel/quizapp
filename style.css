@@ -1,0 +1,60 @@
+.quiz-card{
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-space-between{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hover:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.click:active{
+  background-color: #899197 !important;
+}
+
+img{
+  height: 300px;
+}
+
+.bg-success, .bg-danger{
+  color: white;
+}
+
+#next-button{
+  color: white;
+}
+
+#restart{
+  color: white;
+  margin-top: 16px;
+}
+
+#endScreen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.endScreen img{
+  margin-bottom: 8px;
+}
+
+.progress-bar{
+  background-color: #6c757d!important;
+}
